@@ -2,8 +2,13 @@
 {
     /// <summary>
     /// Basic static factory example: 
-    /// Not a "design pattern"
-    /// Static factory is similar to constructor and could have some advantages
+    /// Not a GoF design pattern
+    /// 
+    /// Implementation: 
+    /// - just a static method that construct the object
+    /// - the "default" constructor could be private and called by the static factory
+    /// 
+    /// Advantages: 
     /// 1: factory can reutrn object from subclass
     /// 2: static factory as constructor allows "constructor" with same signature
     /// 3: control limited resource e.g., HTTP connection pool
