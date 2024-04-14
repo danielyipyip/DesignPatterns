@@ -1,6 +1,10 @@
 
 # Result Pattern
 
+## Summary
+
+Operations returns both the outcome (status) of the operation as well as the data (value) instead of just data. 
+
 ## Background
 
 Error handling, few ways: 
@@ -199,4 +203,4 @@ Kind of a mix of exception & result pattern.
 
 Got a ISuccessResult<T> for a success case. And IFailureResult with an exception. (ignore INoneResult  for now)
 
-It got the error & value in the IResult object. But the error handling is still defaults to using exception. 
+It got the error/ value in the (separate, not both) IResult object. Moreover the error handling is still defaults to using exception. 
