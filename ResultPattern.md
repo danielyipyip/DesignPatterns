@@ -20,13 +20,13 @@ API error handling
 
 ### Advantages vs null
 
-- No need null checking on all returns (still have to check status code)
+- No need null checking on all returns (still have to check isSuccess)
 - Flexible on returned Error (as it is decided in service)
 - Consistent error across API endpoints (as it is decided in service)
 
 ### Advantages vs exception
 
-- Better performance (No need cost to create & throw exception)
+- Better performance (No cost to create & throw exception)
 - Can distinguish real exception and non-happy path (flow control), e.g., in logs
 - Do not require making many exception class (still need to make error records)
 - Do not need a middleware to handle the exception 
