@@ -1,7 +1,7 @@
 
 # Result Pattern
 
-## Summary
+## Summary (perfer one line)
 
 Operations returns both the outcome (status) of the operation as well as the data (value) instead of just data. 
 
@@ -197,7 +197,7 @@ public class ResultControllerBase: ControllerBase{
 
 ## Existing/ similar Implementation
 
-### IResult<T>
+### IResult<T> (C#)
 
 Kind of a mix of exception & result pattern. 
 
